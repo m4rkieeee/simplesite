@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    background-image: url("../img/background.jpg");
+    background-color: darkblue;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navibar {
+    background: rgba(173,216,230,.05);
+    overflow: hidden;
+}
+.navibar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navibar a:hover{
+    background: rgba(173,216,230,.2);
+    color: black;
+}
+
+.navibar a.active{
+    background: rgba(173,216,230,.2);
+    color: black;
+}
+.main{
+    margin-left: 60vh;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 15vh;
+    max-width: 80vh;
+}
+footer{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+}
+
+.vertical-line{
+    float:left;
+    height:50px;
+    width:1px;
+    border-right:1px solid red;
+}
+.data{
+    float:left;
+    height:100px;
+    padding:0px 20px;
+}
+.about {
+    margin-left: 30vh;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 15vh;
+    max-width: 150vh;
+}
